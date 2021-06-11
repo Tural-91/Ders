@@ -1,0 +1,31 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.box1{
+    width: 1200px;
+}
+
+.box2{
+    display: flex;
+    justify-content: right;
+    background-color:gray;
+    width: 1200px;
+  
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+.nav2 ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.container{
+    background:#343a40;
+    margin: auto;
+}

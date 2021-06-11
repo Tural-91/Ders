@@ -1,0 +1,13 @@
+.nav{
+    width: 200px;
+    height: 100px;
+    
+}
+
+.item{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
