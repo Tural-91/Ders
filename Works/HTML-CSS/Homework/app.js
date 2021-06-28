@@ -47,14 +47,13 @@ let str = ['Alma', 'Armud', 'Heyva', 'Nar', 'Mandarin']
 
 //Show in console 'Heyva' using method slice
 
-str.slice(13, 17);
-console.log(str);
+console.log(str.slice(13,17));
 
 //Show in console last two elements of array using method slice
 
-str.slice(3, 0, 'Nar', 'Mandarin' )
-console.log(str);
 
-function test(x, y) {
-    
-}
+console.log(str.slice(-13));
+
+function test(x,y) {
+    return Math.floor(Math.random() * (y - x))+x;}
+    console.log(test(6,14));

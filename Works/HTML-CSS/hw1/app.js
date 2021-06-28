@@ -11,19 +11,30 @@ console.log(arr);
 
 // Show in console all elements which are divided into 3 without remainder
 
-console.log(arr[1]);
+for(let i = 0;i<arr.length;i++){
+      
+    if(arr[i]/3){
+        console.log(arr[i])
+        }
+};
 
 // Show in console all element which are less than 50
 
-console.log(arr[0]);
-console.log(arr[1]);
-console.log(arr[2]);
-console.log(arr[4]);  //sual?
+for(let i = 0; i<arr.length; i++){
+       if(arr[i]<= 50){
+             console.log(arr[i])
+    
+    }
+};
 
 // Show in console all elements which are greater than 35 and less than 70
 
-console.log(arr[4]);
-console.log(arr[5]);   // sual?
+for(let i = 0;i<arr.length;i++){
+    if(arr[i]<35 == 70<arr[i]){
+             console.log(arr[i])
+    }
+ };
+
 
 //2 ci saul
 
@@ -45,5 +56,13 @@ let arr2 = [25, 95, 'test','php',  true, {}, 129, 'javascript'];
 
 //When function calling in global area user must add a parameter (number, string, object, boolean)
 
+function name(a) {
+    for (let i = 0; i<array.length; i++) {
+        if (typeof a == typeof arr[i]) 
+            console.log(arr[i],typeof arr[i]);
+            
+    }
+    
+};
 
 
