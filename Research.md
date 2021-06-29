@@ -31,6 +31,32 @@ Modulus - qalığı göstərir
 İncrement - toplamaq üçündür
 Decrement - cıxmaq üçündür
 
+
+// for of
+
+let arr = [5, 10, 15];
+
+for (let value of arr) {
+  console.log(value);
+}
+
+let arr1 = [1, 2, 3];
+
+for (let value of arr1) {
+  value += 1;
+  console.log(value);
+}
+
+// for in
+
+var person = {name:"Tural", sname:"Agayev", age:30};
+
+var text = "";
+var x;
+for (x in person) {
+  text += person[x] + " ";
+}
+
 Difference between arrays which are declared with let and const? (ex: let arr = [1,2,3] and const arr = [1,2,3])
 
 let ilə yaratdığımız bir dəyişənə daha sonra yeni bir dəyər əlavə edə bilirik. Lakin const ilə yaradılan dəyişənə yeni bir dəyər əlavə edə bilmirik.
