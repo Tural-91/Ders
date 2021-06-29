@@ -13,20 +13,21 @@ console.log(arr);
 
 for(let i = 0;i<arr.length;i++){
       
-    if(arr[i]/3){
+    if(arr[i]%3==0){
         console.log(arr[i])
         }
 };
 
 // Show in console all element which are less than 50
-
+let ar=[]
 for(let i = 0; i<arr.length; i++){
        if(arr[i]<= 50){
-             console.log(arr[i])
+             ar.push(arr[i])
+             
     
     }
 };
-
+console.log(ar);
 // Show in console all elements which are greater than 35 and less than 70
 
 for(let i = 0;i<arr.length;i++){
