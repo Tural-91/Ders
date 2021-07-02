@@ -60,3 +60,31 @@ for (x in person) {
 Difference between arrays which are declared with let and const? (ex: let arr = [1,2,3] and const arr = [1,2,3])
 
 let ilə yaratdığımız bir dəyişənə daha sonra yeni bir dəyər əlavə edə bilirik. Lakin const ilə yaradılan dəyişənə yeni bir dəyər əlavə edə bilmirik.
+
+
+02.07.21
+
+
+İnnerText xassəsi boşluq və daxili element etiketi olmadan yalnız mətni qaytarır.
+İnnerHTML xassəsi bütün boşluqlar və daxili element etiketləri daxil olmaqla mətni qaytarır.
+TextContent xassəsi mətni aralıqlarla, lakin daxili element etiketleri olmadan qaytarır.
+
+<div id="mylinks">
+  This is my <b>link collection</b>:
+  <ul>
+    <li><a href="www.borland.com">Bye bye <b>Borland</b> </a></li>
+    <li><a href="www.microfocus.com">Welcome to <b>Micro Focus</b></a></li>
+  </ul>
+</div>
+
+This is my link collection:Bye bye Borland Welcome to Micro Focus - InnerText
+
+
+This is my <b>link collection</b>:
+<ul> 
+  <li><a href="www.borland.com">Bye bye <b>Borland</b></a></li>      - InnerHTML
+  <li><a href="www.microfocus.com">Welcome to <b>Micro Focus</b></a></li> 
+</ul>
+
+
+This is my link collection: - TextContent
