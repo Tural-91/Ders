@@ -16,10 +16,17 @@ for (let value of arr1) {
 
 // for in
 
-var person = {name:"Tural", sname:"Agayev", age:30};
+var person = {name:"Tural", sname:"Agayev", age:25};
 
 var text = "";
 var x;
 for (x in person) {
   text += person[x] + " ";
 }
+
+
+
+
+
+
+
