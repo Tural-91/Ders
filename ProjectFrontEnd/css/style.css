@@ -9,7 +9,18 @@ body{
     position: fixed;
     top: 10px;
     left: 10px;
-
+}
+.intro .row .col-5{
+  margin-top: 50px;
+  padding-left: 70px;
+}
+.intro .row .col-7{
+    padding-left: 75px;
+}
+.intro img{
+    height: 520px;
+    width: 420px;
+    object-fit: cover;
 }
 .menubar ul li{
     display: flex;
@@ -19,6 +30,10 @@ body{
     font-size: 18px;
     margin-right: 20px;
     padding: 5px;
+}
+.menubar ul li i{
+    padding-top: 5px;
+    padding-left: 8px;
 }
 #mainContent{
     width: calc(100% - 345px);
@@ -50,10 +65,7 @@ body{
     object-fit: cover;
     border-radius: 50%;
 }
-.intro img{
-    height: 420px;
-    
-}
+
 .whatIdo{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -67,6 +79,12 @@ body{
     width: 80px;
     height: 80px;
     border-radius: 50%;
+}
+.testimonials p, h5, h6{
+    padding-left: 40px;
+}
+.testimonials h6{
+    color: #006699;
 }
 .clients{
     display: grid;
@@ -103,8 +121,8 @@ body{
 }
 .testimonials .row .col-6{
     margin: 10px;
-    width: 365px;
-    height: 340px;
+    width: 300px;
+    height: 270px;
     background: #343a40;
     border-radius: 10px;
 }
@@ -117,6 +135,7 @@ body{
 
     h1, h4, h5{
     color: #eeeeee;
+    padding-left: 40px;
     }
 
     p{
@@ -125,17 +144,50 @@ body{
 
     .funfacts p{
         color: #eeeeee;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        
     }
 
     .slvr, .gld, .pltnm{
     color: #eeeeee;
+    font-size: 18px;
+    padding-top: 40px;
+    padding-left: 30px;
+    }
+    .price{
+        font-size: 36px;
     }
     .mnth{
         color: #a6a7a8;
+        font-size: .9em;
     }
-    .funfacts, span{
+    .funfacts span{
         color: #007ced;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        
     }
     .funfacts, .i{
         color: #a6a7a8;
+        display: flex;
+        flex-direction: column;
+        font-size: 28px;
     }
+    .heart{
+       width: 0px;
+       height: 0px;
+       margin-top: 30px;
+    }
+    .clock{
+        width: 0px;
+        height: 0px;
+        margin-top: 30px;
+     }
+     .star{
+        width: 0px;
+        height: 0px;
+        margin-top: 30px;
+     }
