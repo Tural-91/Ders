@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+}
+
+#HomePage{
+    background: #111;
+    width: 100%;
+    height: 100vh;
+}
+.color{
+    background-color: #ffb400;
+    transform: rotate(45deg);
+}
+
+.bg-img img{
+    width: 400px;
+    padding-left: 40px;
+    padding-top: 40px;
+    border-radius: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
